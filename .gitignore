@@ -1,0 +1,7 @@
+# Custom VS gitignore by maybekoi  lol
+.vs/
+.vscode/
+hmm-cpp/
+x64/
+Debug/
+Release/

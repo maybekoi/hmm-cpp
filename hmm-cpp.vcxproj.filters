@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\hmm">
+      <UniqueIdentifier>{39958227-d510-4390-82ab-efdd4aba6e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hmm\utils">
+      <UniqueIdentifier>{aef753cc-882c-4245-809a-266c162d45f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hmm\config">
+      <UniqueIdentifier>{03d1ef32-fa67-45ea-bdf9-01b617bb7b5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\hmm\main.cpp">
+      <Filter>Source Files\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hmm\utils\shell.cpp">
+      <Filter>Source Files\hmm\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hmm\config\hmm_config.cpp">
+      <Filter>Source Files\hmm\config</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
