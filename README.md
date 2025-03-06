@@ -1,6 +1,6 @@
 # hmm-cpp
 
-A C++ implementation of Haxe Module Manager (hmm)[https://github.com/andywhite37/hmm]
+A C++ implementation of Haxe Module Manager [hmm](https://github.com/andywhite37/hmm)
 
 # Installation
 
