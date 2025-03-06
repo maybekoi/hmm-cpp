@@ -5,3 +5,4 @@ hmm-cpp/
 x64/
 Debug/
 Release/
+*.zip
